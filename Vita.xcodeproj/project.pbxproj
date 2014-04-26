@@ -21,6 +21,10 @@
 		F728BF59190C74BB00E9DF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF3B190C74BB00E9DF4D /* UIKit.framework */; };
 		F728BF61190C74BB00E9DF4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F728BF5F190C74BB00E9DF4D /* InfoPlist.strings */; };
 		F728BF63190C74BB00E9DF4D /* VitaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF62190C74BB00E9DF4D /* VitaTests.m */; };
+		F728BF6E190C76F600E9DF4D /* MapaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF6D190C76F600E9DF4D /* MapaVC.m */; };
+		F728BF71190C778800E9DF4D /* PrincipalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF70190C778800E9DF4D /* PrincipalVC.m */; };
+		F728BF73190C77E700E9DF4D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF72190C77E700E9DF4D /* MapKit.framework */; };
+		F728BF75190C77F000E9DF4D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF74190C77F000E9DF4D /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,12 @@
 		F728BF5E190C74BB00E9DF4D /* VitaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VitaTests-Info.plist"; sourceTree = "<group>"; };
 		F728BF60190C74BB00E9DF4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F728BF62190C74BB00E9DF4D /* VitaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VitaTests.m; sourceTree = "<group>"; };
+		F728BF6C190C76F600E9DF4D /* MapaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaVC.h; sourceTree = "<group>"; };
+		F728BF6D190C76F600E9DF4D /* MapaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaVC.m; sourceTree = "<group>"; };
+		F728BF6F190C778800E9DF4D /* PrincipalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalVC.h; sourceTree = "<group>"; };
+		F728BF70190C778800E9DF4D /* PrincipalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalVC.m; sourceTree = "<group>"; };
+		F728BF72190C77E700E9DF4D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F728BF74190C77F000E9DF4D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F728BF75190C77F000E9DF4D /* CoreLocation.framework in Frameworks */,
+				F728BF73190C77E700E9DF4D /* MapKit.framework in Frameworks */,
 				F728BF3A190C74BB00E9DF4D /* CoreGraphics.framework in Frameworks */,
 				F728BF3C190C74BB00E9DF4D /* UIKit.framework in Frameworks */,
 				F728BF38190C74BB00E9DF4D /* Foundation.framework in Frameworks */,
@@ -101,6 +113,8 @@
 		F728BF36190C74BB00E9DF4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F728BF74190C77F000E9DF4D /* CoreLocation.framework */,
+				F728BF72190C77E700E9DF4D /* MapKit.framework */,
 				F728BF37190C74BB00E9DF4D /* Foundation.framework */,
 				F728BF39190C74BB00E9DF4D /* CoreGraphics.framework */,
 				F728BF3B190C74BB00E9DF4D /* UIKit.framework */,
@@ -115,6 +129,10 @@
 				F728BF46190C74BB00E9DF4D /* AppDelegate.h */,
 				F728BF47190C74BB00E9DF4D /* AppDelegate.m */,
 				F728BF49190C74BB00E9DF4D /* Main.storyboard */,
+				F728BF6F190C778800E9DF4D /* PrincipalVC.h */,
+				F728BF70190C778800E9DF4D /* PrincipalVC.m */,
+				F728BF6C190C76F600E9DF4D /* MapaVC.h */,
+				F728BF6D190C76F600E9DF4D /* MapaVC.m */,
 				F728BF4C190C74BB00E9DF4D /* TelaVC.h */,
 				F728BF4D190C74BB00E9DF4D /* TelaVC.m */,
 				F728BF4F190C74BB00E9DF4D /* Images.xcassets */,
@@ -250,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F728BF4E190C74BB00E9DF4D /* TelaVC.m in Sources */,
+				F728BF71190C778800E9DF4D /* PrincipalVC.m in Sources */,
 				F728BF48190C74BB00E9DF4D /* AppDelegate.m in Sources */,
 				F728BF44190C74BB00E9DF4D /* main.m in Sources */,
+				F728BF6E190C76F600E9DF4D /* MapaVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

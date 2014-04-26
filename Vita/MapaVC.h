@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MapaVC.h
 //  Vita
 //
 //  Created by Ezequiel Franca dos Santos on 26/04/14.
@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MapaVC.h"
 
-@interface TelaVC : UITabBarController
+@interface MapaVC : UIViewController
 
 @end
