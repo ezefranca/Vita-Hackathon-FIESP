@@ -7,335 +7,352 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F728BF38190C74BB00E9DF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF37190C74BB00E9DF4D /* Foundation.framework */; };
-		F728BF3A190C74BB00E9DF4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF39190C74BB00E9DF4D /* CoreGraphics.framework */; };
-		F728BF3C190C74BB00E9DF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF3B190C74BB00E9DF4D /* UIKit.framework */; };
-		F728BF42190C74BB00E9DF4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F728BF40190C74BB00E9DF4D /* InfoPlist.strings */; };
-		F728BF44190C74BB00E9DF4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF43190C74BB00E9DF4D /* main.m */; };
-		F728BF48190C74BB00E9DF4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF47190C74BB00E9DF4D /* AppDelegate.m */; };
-		F728BF4B190C74BB00E9DF4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F728BF49190C74BB00E9DF4D /* Main.storyboard */; };
-		F728BF4E190C74BB00E9DF4D /* TelaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF4D190C74BB00E9DF4D /* TelaVC.m */; };
-		F728BF50190C74BB00E9DF4D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F728BF4F190C74BB00E9DF4D /* Images.xcassets */; };
-		F728BF57190C74BB00E9DF4D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF56190C74BB00E9DF4D /* XCTest.framework */; };
-		F728BF58190C74BB00E9DF4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF37190C74BB00E9DF4D /* Foundation.framework */; };
-		F728BF59190C74BB00E9DF4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF3B190C74BB00E9DF4D /* UIKit.framework */; };
-		F728BF61190C74BB00E9DF4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F728BF5F190C74BB00E9DF4D /* InfoPlist.strings */; };
-		F728BF63190C74BB00E9DF4D /* VitaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF62190C74BB00E9DF4D /* VitaTests.m */; };
-		F728BF6E190C76F600E9DF4D /* MapaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF6D190C76F600E9DF4D /* MapaVC.m */; };
-		F728BF71190C778800E9DF4D /* PrincipalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BF70190C778800E9DF4D /* PrincipalVC.m */; };
-		F728BF73190C77E700E9DF4D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF72190C77E700E9DF4D /* MapKit.framework */; };
-		F728BF75190C77F000E9DF4D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BF74190C77F000E9DF4D /* CoreLocation.framework */; };
+		E2DF628A16943FAB0059BBDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DF628916943FAB0059BBDA /* UIKit.framework */; };
+		E2DF628C16943FAB0059BBDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DF628B16943FAB0059BBDA /* Foundation.framework */; };
+		E2DF628E16943FAB0059BBDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2DF628D16943FAB0059BBDA /* CoreGraphics.framework */; };
+		E2DF629416943FAB0059BBDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E2DF629216943FAB0059BBDA /* InfoPlist.strings */; };
+		E2DF629616943FAB0059BBDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DF629516943FAB0059BBDA /* main.m */; };
+		E2DF629A16943FAB0059BBDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DF629916943FAB0059BBDA /* AppDelegate.m */; };
+		E2DF629C16943FAB0059BBDA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DF629B16943FAB0059BBDA /* Default.png */; };
+		E2DF629E16943FAB0059BBDA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DF629D16943FAB0059BBDA /* Default@2x.png */; };
+		E2DF62A016943FAB0059BBDA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E2DF629F16943FAB0059BBDA /* Default-568h@2x.png */; };
+		E2DF62A316943FAB0059BBDA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2DF62A116943FAB0059BBDA /* MainStoryboard.storyboard */; };
+		E2DF62AE16946EF30059BBDA /* PrimeirosSocorrosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DF62AD16946EF30059BBDA /* PrimeirosSocorrosVC.m */; };
+		E2DF62B116948E0E0059BBDA /* EmergenciasCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DF62B016948E0E0059BBDA /* EmergenciasCell.m */; };
+		E2DF62B41694CB690059BBDA /* Emergencias.m in Sources */ = {isa = PBXBuildFile; fileRef = E2DF62B31694CB690059BBDA /* Emergencias.m */; };
+		E2DF62BE169577D80059BBDA /* TheGoodTheBadAndTheUgly_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2DF62B9169577D70059BBDA /* TheGoodTheBadAndTheUgly_poster.jpg */; };
+		E2DF62BF169577D80059BBDA /* PulpFiction_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2DF62BA169577D70059BBDA /* PulpFiction_poster.jpg */; };
+		E2DF62C0169577D80059BBDA /* TheGodfatherPart2_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2DF62BB169577D70059BBDA /* TheGodfatherPart2_poster.jpg */; };
+		E2DF62C1169577D80059BBDA /* TheGodfather_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2DF62BC169577D70059BBDA /* TheGodfather_poster.jpg */; };
+		E2DF62C2169577D80059BBDA /* ShawshankRedemption_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2DF62BD169577D80059BBDA /* ShawshankRedemption_poster.jpg */; };
+		F728BFBB190CAC3700E9DF4D /* photo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F728BFA6190CAC3700E9DF4D /* photo.PNG */; };
+		F728BFBC190CAC3700E9DF4D /* PulpFiction_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F728BFA8190CAC3700E9DF4D /* PulpFiction_poster.jpg */; };
+		F728BFBD190CAC3700E9DF4D /* ShawshankRedemption_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F728BFA9190CAC3700E9DF4D /* ShawshankRedemption_poster.jpg */; };
+		F728BFBE190CAC3700E9DF4D /* TheGodfather_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F728BFAA190CAC3700E9DF4D /* TheGodfather_poster.jpg */; };
+		F728BFBF190CAC3700E9DF4D /* TheGodfatherPart2_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F728BFAB190CAC3700E9DF4D /* TheGodfatherPart2_poster.jpg */; };
+		F728BFC0190CAC3700E9DF4D /* TheGoodTheBadAndTheUgly_poster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F728BFAC190CAC3700E9DF4D /* TheGoodTheBadAndTheUgly_poster.jpg */; };
+		F728BFC8190CAC3700E9DF4D /* MapaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BFB6190CAC3700E9DF4D /* MapaVC.m */; };
+		F728BFC9190CAC3700E9DF4D /* PrincipalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BFB8190CAC3700E9DF4D /* PrincipalVC.m */; };
+		F728BFCA190CAC3700E9DF4D /* TelaVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BFBA190CAC3700E9DF4D /* TelaVC.m */; };
+		F728BFD4190CB30C00E9DF4D /* acidentes.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFCC190CB30C00E9DF4D /* acidentes.png */; };
+		F728BFD5190CB30C00E9DF4D /* ambulancia.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFCD190CB30C00E9DF4D /* ambulancia.png */; };
+		F728BFD6190CB30C00E9DF4D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFCE190CB30C00E9DF4D /* home.png */; };
+		F728BFD7190CB30C00E9DF4D /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFCF190CB30C00E9DF4D /* image1.png */; };
+		F728BFD8190CB30C00E9DF4D /* imagemprimeiros socorros.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFD0190CB30C00E9DF4D /* imagemprimeiros socorros.png */; };
+		F728BFD9190CB30C00E9DF4D /* mais.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFD1190CB30C00E9DF4D /* mais.png */; };
+		F728BFDA190CB30C00E9DF4D /* mapas.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFD2190CB30C00E9DF4D /* mapas.png */; };
+		F728BFDB190CB30C00E9DF4D /* primeirossocorros.png in Resources */ = {isa = PBXBuildFile; fileRef = F728BFD3190CB30C00E9DF4D /* primeirossocorros.png */; };
+		F728BFDD190CB40300E9DF4D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BFDC190CB40300E9DF4D /* CoreLocation.framework */; };
+		F728BFDF190CB40900E9DF4D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F728BFDE190CB40900E9DF4D /* MapKit.framework */; };
+		F728BFE2190CB59E00E9DF4D /* CardiacoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F728BFE1190CB59E00E9DF4D /* CardiacoVC.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F728BF5A190C74BB00E9DF4D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F728BF2C190C74BB00E9DF4D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F728BF33190C74BB00E9DF4D;
-			remoteInfo = Vita;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		F728BF34190C74BB00E9DF4D /* Vita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vita.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F728BF37190C74BB00E9DF4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F728BF39190C74BB00E9DF4D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F728BF3B190C74BB00E9DF4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F728BF3F190C74BB00E9DF4D /* Vita-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vita-Info.plist"; sourceTree = "<group>"; };
-		F728BF41190C74BB00E9DF4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F728BF43190C74BB00E9DF4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F728BF45190C74BB00E9DF4D /* Vita-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vita-Prefix.pch"; sourceTree = "<group>"; };
-		F728BF46190C74BB00E9DF4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F728BF47190C74BB00E9DF4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F728BF4A190C74BB00E9DF4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F728BF4C190C74BB00E9DF4D /* TelaVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TelaVC.h; sourceTree = "<group>"; };
-		F728BF4D190C74BB00E9DF4D /* TelaVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelaVC.m; sourceTree = "<group>"; };
-		F728BF4F190C74BB00E9DF4D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F728BF55190C74BB00E9DF4D /* VitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F728BF56190C74BB00E9DF4D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F728BF5E190C74BB00E9DF4D /* VitaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VitaTests-Info.plist"; sourceTree = "<group>"; };
-		F728BF60190C74BB00E9DF4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F728BF62190C74BB00E9DF4D /* VitaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VitaTests.m; sourceTree = "<group>"; };
-		F728BF6C190C76F600E9DF4D /* MapaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaVC.h; sourceTree = "<group>"; };
-		F728BF6D190C76F600E9DF4D /* MapaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaVC.m; sourceTree = "<group>"; };
-		F728BF6F190C778800E9DF4D /* PrincipalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalVC.h; sourceTree = "<group>"; };
-		F728BF70190C778800E9DF4D /* PrincipalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalVC.m; sourceTree = "<group>"; };
-		F728BF72190C77E700E9DF4D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		F728BF74190C77F000E9DF4D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E2DF628516943FAB0059BBDA /* Vita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2DF628916943FAB0059BBDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E2DF628B16943FAB0059BBDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E2DF628D16943FAB0059BBDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E2DF629116943FAB0059BBDA /* Vita-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vita-Info.plist"; sourceTree = "<group>"; };
+		E2DF629316943FAB0059BBDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2DF629516943FAB0059BBDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E2DF629716943FAB0059BBDA /* Vita-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vita-Prefix.pch"; sourceTree = "<group>"; };
+		E2DF629816943FAB0059BBDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E2DF629916943FAB0059BBDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E2DF629B16943FAB0059BBDA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E2DF629D16943FAB0059BBDA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E2DF629F16943FAB0059BBDA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E2DF62A216943FAB0059BBDA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E2DF62AC16946EF30059BBDA /* PrimeirosSocorrosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeirosSocorrosVC.h; sourceTree = "<group>"; };
+		E2DF62AD16946EF30059BBDA /* PrimeirosSocorrosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeirosSocorrosVC.m; sourceTree = "<group>"; };
+		E2DF62AF16948E0E0059BBDA /* EmergenciasCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergenciasCell.h; sourceTree = "<group>"; };
+		E2DF62B016948E0E0059BBDA /* EmergenciasCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergenciasCell.m; sourceTree = "<group>"; };
+		E2DF62B21694CB690059BBDA /* Emergencias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emergencias.h; sourceTree = "<group>"; };
+		E2DF62B31694CB690059BBDA /* Emergencias.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emergencias.m; sourceTree = "<group>"; };
+		E2DF62B9169577D70059BBDA /* TheGoodTheBadAndTheUgly_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGoodTheBadAndTheUgly_poster.jpg; sourceTree = "<group>"; };
+		E2DF62BA169577D70059BBDA /* PulpFiction_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PulpFiction_poster.jpg; sourceTree = "<group>"; };
+		E2DF62BB169577D70059BBDA /* TheGodfatherPart2_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfatherPart2_poster.jpg; sourceTree = "<group>"; };
+		E2DF62BC169577D70059BBDA /* TheGodfather_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfather_poster.jpg; sourceTree = "<group>"; };
+		E2DF62BD169577D80059BBDA /* ShawshankRedemption_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShawshankRedemption_poster.jpg; sourceTree = "<group>"; };
+		F728BFA6190CAC3700E9DF4D /* photo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.PNG; sourceTree = "<group>"; };
+		F728BFA8190CAC3700E9DF4D /* PulpFiction_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PulpFiction_poster.jpg; sourceTree = "<group>"; };
+		F728BFA9190CAC3700E9DF4D /* ShawshankRedemption_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ShawshankRedemption_poster.jpg; sourceTree = "<group>"; };
+		F728BFAA190CAC3700E9DF4D /* TheGodfather_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfather_poster.jpg; sourceTree = "<group>"; };
+		F728BFAB190CAC3700E9DF4D /* TheGodfatherPart2_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGodfatherPart2_poster.jpg; sourceTree = "<group>"; };
+		F728BFAC190CAC3700E9DF4D /* TheGoodTheBadAndTheUgly_poster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheGoodTheBadAndTheUgly_poster.jpg; sourceTree = "<group>"; };
+		F728BFB5190CAC3700E9DF4D /* MapaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaVC.h; sourceTree = "<group>"; };
+		F728BFB6190CAC3700E9DF4D /* MapaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaVC.m; sourceTree = "<group>"; };
+		F728BFB7190CAC3700E9DF4D /* PrincipalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrincipalVC.h; sourceTree = "<group>"; };
+		F728BFB8190CAC3700E9DF4D /* PrincipalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrincipalVC.m; sourceTree = "<group>"; };
+		F728BFB9190CAC3700E9DF4D /* TelaVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelaVC.h; sourceTree = "<group>"; };
+		F728BFBA190CAC3700E9DF4D /* TelaVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelaVC.m; sourceTree = "<group>"; };
+		F728BFCC190CB30C00E9DF4D /* acidentes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acidentes.png; sourceTree = "<group>"; };
+		F728BFCD190CB30C00E9DF4D /* ambulancia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ambulancia.png; sourceTree = "<group>"; };
+		F728BFCE190CB30C00E9DF4D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		F728BFCF190CB30C00E9DF4D /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		F728BFD0190CB30C00E9DF4D /* imagemprimeiros socorros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imagemprimeiros socorros.png"; sourceTree = "<group>"; };
+		F728BFD1190CB30C00E9DF4D /* mais.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mais.png; sourceTree = "<group>"; };
+		F728BFD2190CB30C00E9DF4D /* mapas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapas.png; sourceTree = "<group>"; };
+		F728BFD3190CB30C00E9DF4D /* primeirossocorros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = primeirossocorros.png; sourceTree = "<group>"; };
+		F728BFDC190CB40300E9DF4D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F728BFDE190CB40900E9DF4D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F728BFE0190CB59E00E9DF4D /* CardiacoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardiacoVC.h; sourceTree = "<group>"; };
+		F728BFE1190CB59E00E9DF4D /* CardiacoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardiacoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F728BF31190C74BB00E9DF4D /* Frameworks */ = {
+		E2DF628216943FAB0059BBDA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F728BF75190C77F000E9DF4D /* CoreLocation.framework in Frameworks */,
-				F728BF73190C77E700E9DF4D /* MapKit.framework in Frameworks */,
-				F728BF3A190C74BB00E9DF4D /* CoreGraphics.framework in Frameworks */,
-				F728BF3C190C74BB00E9DF4D /* UIKit.framework in Frameworks */,
-				F728BF38190C74BB00E9DF4D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F728BF52190C74BB00E9DF4D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F728BF57190C74BB00E9DF4D /* XCTest.framework in Frameworks */,
-				F728BF59190C74BB00E9DF4D /* UIKit.framework in Frameworks */,
-				F728BF58190C74BB00E9DF4D /* Foundation.framework in Frameworks */,
+				F728BFDF190CB40900E9DF4D /* MapKit.framework in Frameworks */,
+				F728BFDD190CB40300E9DF4D /* CoreLocation.framework in Frameworks */,
+				E2DF628A16943FAB0059BBDA /* UIKit.framework in Frameworks */,
+				E2DF628C16943FAB0059BBDA /* Foundation.framework in Frameworks */,
+				E2DF628E16943FAB0059BBDA /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F728BF2B190C74BB00E9DF4D = {
+		E2DF627A16943FAB0059BBDA = {
 			isa = PBXGroup;
 			children = (
-				F728BF3D190C74BB00E9DF4D /* Vita */,
-				F728BF5C190C74BB00E9DF4D /* VitaTests */,
-				F728BF36190C74BB00E9DF4D /* Frameworks */,
-				F728BF35190C74BB00E9DF4D /* Products */,
+				E2DF628F16943FAB0059BBDA /* CustomizingTableViewCell */,
+				E2DF628816943FAB0059BBDA /* Frameworks */,
+				E2DF628616943FAB0059BBDA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F728BF35190C74BB00E9DF4D /* Products */ = {
+		E2DF628616943FAB0059BBDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F728BF34190C74BB00E9DF4D /* Vita.app */,
-				F728BF55190C74BB00E9DF4D /* VitaTests.xctest */,
+				E2DF628516943FAB0059BBDA /* Vita.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F728BF36190C74BB00E9DF4D /* Frameworks */ = {
+		E2DF628816943FAB0059BBDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F728BF74190C77F000E9DF4D /* CoreLocation.framework */,
-				F728BF72190C77E700E9DF4D /* MapKit.framework */,
-				F728BF37190C74BB00E9DF4D /* Foundation.framework */,
-				F728BF39190C74BB00E9DF4D /* CoreGraphics.framework */,
-				F728BF3B190C74BB00E9DF4D /* UIKit.framework */,
-				F728BF56190C74BB00E9DF4D /* XCTest.framework */,
+				F728BFDE190CB40900E9DF4D /* MapKit.framework */,
+				F728BFDC190CB40300E9DF4D /* CoreLocation.framework */,
+				E2DF628916943FAB0059BBDA /* UIKit.framework */,
+				E2DF628B16943FAB0059BBDA /* Foundation.framework */,
+				E2DF628D16943FAB0059BBDA /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F728BF3D190C74BB00E9DF4D /* Vita */ = {
+		E2DF628F16943FAB0059BBDA /* CustomizingTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				F728BF46190C74BB00E9DF4D /* AppDelegate.h */,
-				F728BF47190C74BB00E9DF4D /* AppDelegate.m */,
-				F728BF49190C74BB00E9DF4D /* Main.storyboard */,
-				F728BF6F190C778800E9DF4D /* PrincipalVC.h */,
-				F728BF70190C778800E9DF4D /* PrincipalVC.m */,
-				F728BF6C190C76F600E9DF4D /* MapaVC.h */,
-				F728BF6D190C76F600E9DF4D /* MapaVC.m */,
-				F728BF4C190C74BB00E9DF4D /* TelaVC.h */,
-				F728BF4D190C74BB00E9DF4D /* TelaVC.m */,
-				F728BF4F190C74BB00E9DF4D /* Images.xcassets */,
-				F728BF3E190C74BB00E9DF4D /* Supporting Files */,
+				E2DF629816943FAB0059BBDA /* AppDelegate.h */,
+				F728BFA5190CAC3700E9DF4D /* Imagens */,
+				F728BFB5190CAC3700E9DF4D /* MapaVC.h */,
+				F728BFB6190CAC3700E9DF4D /* MapaVC.m */,
+				F728BFB7190CAC3700E9DF4D /* PrincipalVC.h */,
+				F728BFB8190CAC3700E9DF4D /* PrincipalVC.m */,
+				F728BFB9190CAC3700E9DF4D /* TelaVC.h */,
+				F728BFBA190CAC3700E9DF4D /* TelaVC.m */,
+				E2DF629916943FAB0059BBDA /* AppDelegate.m */,
+				E2DF62A116943FAB0059BBDA /* MainStoryboard.storyboard */,
+				E2DF62AC16946EF30059BBDA /* PrimeirosSocorrosVC.h */,
+				E2DF62AD16946EF30059BBDA /* PrimeirosSocorrosVC.m */,
+				F728BFE0190CB59E00E9DF4D /* CardiacoVC.h */,
+				F728BFE1190CB59E00E9DF4D /* CardiacoVC.m */,
+				E2DF62B21694CB690059BBDA /* Emergencias.h */,
+				E2DF62B31694CB690059BBDA /* Emergencias.m */,
+				E2DF62AF16948E0E0059BBDA /* EmergenciasCell.h */,
+				E2DF62B016948E0E0059BBDA /* EmergenciasCell.m */,
+				E2DF62B9169577D70059BBDA /* TheGoodTheBadAndTheUgly_poster.jpg */,
+				E2DF62BA169577D70059BBDA /* PulpFiction_poster.jpg */,
+				E2DF62BB169577D70059BBDA /* TheGodfatherPart2_poster.jpg */,
+				E2DF62BC169577D70059BBDA /* TheGodfather_poster.jpg */,
+				E2DF62BD169577D80059BBDA /* ShawshankRedemption_poster.jpg */,
+				E2DF629016943FAB0059BBDA /* Supporting Files */,
 			);
-			path = Vita;
+			path = CustomizingTableViewCell;
 			sourceTree = "<group>";
 		};
-		F728BF3E190C74BB00E9DF4D /* Supporting Files */ = {
+		E2DF629016943FAB0059BBDA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F728BF3F190C74BB00E9DF4D /* Vita-Info.plist */,
-				F728BF40190C74BB00E9DF4D /* InfoPlist.strings */,
-				F728BF43190C74BB00E9DF4D /* main.m */,
-				F728BF45190C74BB00E9DF4D /* Vita-Prefix.pch */,
+				E2DF629116943FAB0059BBDA /* Vita-Info.plist */,
+				E2DF629216943FAB0059BBDA /* InfoPlist.strings */,
+				E2DF629516943FAB0059BBDA /* main.m */,
+				E2DF629716943FAB0059BBDA /* Vita-Prefix.pch */,
+				E2DF629B16943FAB0059BBDA /* Default.png */,
+				E2DF629D16943FAB0059BBDA /* Default@2x.png */,
+				E2DF629F16943FAB0059BBDA /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F728BF5C190C74BB00E9DF4D /* VitaTests */ = {
+		F728BFA5190CAC3700E9DF4D /* Imagens */ = {
 			isa = PBXGroup;
 			children = (
-				F728BF62190C74BB00E9DF4D /* VitaTests.m */,
-				F728BF5D190C74BB00E9DF4D /* Supporting Files */,
+				F728BFCB190CB30C00E9DF4D /* vita */,
+				F728BFA6190CAC3700E9DF4D /* photo.PNG */,
+				F728BFA7190CAC3700E9DF4D /* teste */,
 			);
-			path = VitaTests;
+			path = Imagens;
 			sourceTree = "<group>";
 		};
-		F728BF5D190C74BB00E9DF4D /* Supporting Files */ = {
+		F728BFA7190CAC3700E9DF4D /* teste */ = {
 			isa = PBXGroup;
 			children = (
-				F728BF5E190C74BB00E9DF4D /* VitaTests-Info.plist */,
-				F728BF5F190C74BB00E9DF4D /* InfoPlist.strings */,
+				F728BFA8190CAC3700E9DF4D /* PulpFiction_poster.jpg */,
+				F728BFA9190CAC3700E9DF4D /* ShawshankRedemption_poster.jpg */,
+				F728BFAA190CAC3700E9DF4D /* TheGodfather_poster.jpg */,
+				F728BFAB190CAC3700E9DF4D /* TheGodfatherPart2_poster.jpg */,
+				F728BFAC190CAC3700E9DF4D /* TheGoodTheBadAndTheUgly_poster.jpg */,
 			);
-			name = "Supporting Files";
+			path = teste;
+			sourceTree = "<group>";
+		};
+		F728BFCB190CB30C00E9DF4D /* vita */ = {
+			isa = PBXGroup;
+			children = (
+				F728BFCC190CB30C00E9DF4D /* acidentes.png */,
+				F728BFCD190CB30C00E9DF4D /* ambulancia.png */,
+				F728BFCE190CB30C00E9DF4D /* home.png */,
+				F728BFCF190CB30C00E9DF4D /* image1.png */,
+				F728BFD0190CB30C00E9DF4D /* imagemprimeiros socorros.png */,
+				F728BFD1190CB30C00E9DF4D /* mais.png */,
+				F728BFD2190CB30C00E9DF4D /* mapas.png */,
+				F728BFD3190CB30C00E9DF4D /* primeirossocorros.png */,
+			);
+			path = vita;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F728BF33190C74BB00E9DF4D /* Vita */ = {
+		E2DF628416943FAB0059BBDA /* Vita */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F728BF66190C74BB00E9DF4D /* Build configuration list for PBXNativeTarget "Vita" */;
+			buildConfigurationList = E2DF62A916943FAB0059BBDA /* Build configuration list for PBXNativeTarget "Vita" */;
 			buildPhases = (
-				F728BF30190C74BB00E9DF4D /* Sources */,
-				F728BF31190C74BB00E9DF4D /* Frameworks */,
-				F728BF32190C74BB00E9DF4D /* Resources */,
+				E2DF628116943FAB0059BBDA /* Sources */,
+				E2DF628216943FAB0059BBDA /* Frameworks */,
+				E2DF628316943FAB0059BBDA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Vita;
-			productName = Vita;
-			productReference = F728BF34190C74BB00E9DF4D /* Vita.app */;
+			productName = CustomizingTableViewCell;
+			productReference = E2DF628516943FAB0059BBDA /* Vita.app */;
 			productType = "com.apple.product-type.application";
-		};
-		F728BF54190C74BB00E9DF4D /* VitaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F728BF69190C74BB00E9DF4D /* Build configuration list for PBXNativeTarget "VitaTests" */;
-			buildPhases = (
-				F728BF51190C74BB00E9DF4D /* Sources */,
-				F728BF52190C74BB00E9DF4D /* Frameworks */,
-				F728BF53190C74BB00E9DF4D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F728BF5B190C74BB00E9DF4D /* PBXTargetDependency */,
-			);
-			name = VitaTests;
-			productName = VitaTests;
-			productReference = F728BF55190C74BB00E9DF4D /* VitaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F728BF2C190C74BB00E9DF4D /* Project object */ = {
+		E2DF627C16943FAB0059BBDA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = "Ezequiel Franca dos Santos";
-				TargetAttributes = {
-					F728BF54190C74BB00E9DF4D = {
-						TestTargetID = F728BF33190C74BB00E9DF4D;
-					};
-				};
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Arthur Knopper";
 			};
-			buildConfigurationList = F728BF2F190C74BB00E9DF4D /* Build configuration list for PBXProject "Vita" */;
+			buildConfigurationList = E2DF627F16943FAB0059BBDA /* Build configuration list for PBXProject "Vita" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = F728BF2B190C74BB00E9DF4D;
-			productRefGroup = F728BF35190C74BB00E9DF4D /* Products */;
+			mainGroup = E2DF627A16943FAB0059BBDA;
+			productRefGroup = E2DF628616943FAB0059BBDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F728BF33190C74BB00E9DF4D /* Vita */,
-				F728BF54190C74BB00E9DF4D /* VitaTests */,
+				E2DF628416943FAB0059BBDA /* Vita */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F728BF32190C74BB00E9DF4D /* Resources */ = {
+		E2DF628316943FAB0059BBDA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F728BF50190C74BB00E9DF4D /* Images.xcassets in Resources */,
-				F728BF42190C74BB00E9DF4D /* InfoPlist.strings in Resources */,
-				F728BF4B190C74BB00E9DF4D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F728BF53190C74BB00E9DF4D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F728BF61190C74BB00E9DF4D /* InfoPlist.strings in Resources */,
+				E2DF629416943FAB0059BBDA /* InfoPlist.strings in Resources */,
+				F728BFD7190CB30C00E9DF4D /* image1.png in Resources */,
+				F728BFBE190CAC3700E9DF4D /* TheGodfather_poster.jpg in Resources */,
+				E2DF629C16943FAB0059BBDA /* Default.png in Resources */,
+				F728BFBD190CAC3700E9DF4D /* ShawshankRedemption_poster.jpg in Resources */,
+				F728BFC0190CAC3700E9DF4D /* TheGoodTheBadAndTheUgly_poster.jpg in Resources */,
+				E2DF629E16943FAB0059BBDA /* Default@2x.png in Resources */,
+				F728BFBF190CAC3700E9DF4D /* TheGodfatherPart2_poster.jpg in Resources */,
+				F728BFBB190CAC3700E9DF4D /* photo.PNG in Resources */,
+				E2DF62A016943FAB0059BBDA /* Default-568h@2x.png in Resources */,
+				E2DF62A316943FAB0059BBDA /* MainStoryboard.storyboard in Resources */,
+				F728BFD9190CB30C00E9DF4D /* mais.png in Resources */,
+				E2DF62BE169577D80059BBDA /* TheGoodTheBadAndTheUgly_poster.jpg in Resources */,
+				E2DF62BF169577D80059BBDA /* PulpFiction_poster.jpg in Resources */,
+				F728BFD6190CB30C00E9DF4D /* home.png in Resources */,
+				E2DF62C0169577D80059BBDA /* TheGodfatherPart2_poster.jpg in Resources */,
+				F728BFDA190CB30C00E9DF4D /* mapas.png in Resources */,
+				F728BFD8190CB30C00E9DF4D /* imagemprimeiros socorros.png in Resources */,
+				E2DF62C1169577D80059BBDA /* TheGodfather_poster.jpg in Resources */,
+				F728BFD5190CB30C00E9DF4D /* ambulancia.png in Resources */,
+				F728BFDB190CB30C00E9DF4D /* primeirossocorros.png in Resources */,
+				F728BFD4190CB30C00E9DF4D /* acidentes.png in Resources */,
+				F728BFBC190CAC3700E9DF4D /* PulpFiction_poster.jpg in Resources */,
+				E2DF62C2169577D80059BBDA /* ShawshankRedemption_poster.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F728BF30190C74BB00E9DF4D /* Sources */ = {
+		E2DF628116943FAB0059BBDA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F728BF4E190C74BB00E9DF4D /* TelaVC.m in Sources */,
-				F728BF71190C778800E9DF4D /* PrincipalVC.m in Sources */,
-				F728BF48190C74BB00E9DF4D /* AppDelegate.m in Sources */,
-				F728BF44190C74BB00E9DF4D /* main.m in Sources */,
-				F728BF6E190C76F600E9DF4D /* MapaVC.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F728BF51190C74BB00E9DF4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F728BF63190C74BB00E9DF4D /* VitaTests.m in Sources */,
+				E2DF629616943FAB0059BBDA /* main.m in Sources */,
+				E2DF629A16943FAB0059BBDA /* AppDelegate.m in Sources */,
+				F728BFCA190CAC3700E9DF4D /* TelaVC.m in Sources */,
+				F728BFC9190CAC3700E9DF4D /* PrincipalVC.m in Sources */,
+				E2DF62AE16946EF30059BBDA /* PrimeirosSocorrosVC.m in Sources */,
+				F728BFE2190CB59E00E9DF4D /* CardiacoVC.m in Sources */,
+				F728BFC8190CAC3700E9DF4D /* MapaVC.m in Sources */,
+				E2DF62B116948E0E0059BBDA /* EmergenciasCell.m in Sources */,
+				E2DF62B41694CB690059BBDA /* Emergencias.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		F728BF5B190C74BB00E9DF4D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F728BF33190C74BB00E9DF4D /* Vita */;
-			targetProxy = F728BF5A190C74BB00E9DF4D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		F728BF40190C74BB00E9DF4D /* InfoPlist.strings */ = {
+		E2DF629216943FAB0059BBDA /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F728BF41190C74BB00E9DF4D /* en */,
+				E2DF629316943FAB0059BBDA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F728BF49190C74BB00E9DF4D /* Main.storyboard */ = {
+		E2DF62A116943FAB0059BBDA /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F728BF4A190C74BB00E9DF4D /* Base */,
+				E2DF62A216943FAB0059BBDA /* en */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F728BF5F190C74BB00E9DF4D /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F728BF60190C74BB00E9DF4D /* en */,
-			);
-			name = InfoPlist.strings;
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F728BF64190C74BB00E9DF4D /* Debug */ = {
+		E2DF62A716943FAB0059BBDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
@@ -347,145 +364,83 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		F728BF65190C74BB00E9DF4D /* Release */ = {
+		E2DF62A816943FAB0059BBDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F728BF67190C74BB00E9DF4D /* Debug */ = {
+		E2DF62AA16943FAB0059BBDA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vita/Vita-Prefix.pch";
-				INFOPLIST_FILE = "Vita/Vita-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CustomizingTableViewCell/Vita-Prefix.pch";
+				INFOPLIST_FILE = "CustomizingTableViewCell/Vita-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Vita;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		F728BF68190C74BB00E9DF4D /* Release */ = {
+		E2DF62AB16943FAB0059BBDA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vita/Vita-Prefix.pch";
-				INFOPLIST_FILE = "Vita/Vita-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "CustomizingTableViewCell/Vita-Prefix.pch";
+				INFOPLIST_FILE = "CustomizingTableViewCell/Vita-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = Vita;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		F728BF6A190C74BB00E9DF4D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vita.app/Vita";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vita/Vita-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "VitaTests/VitaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		F728BF6B190C74BB00E9DF4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vita.app/Vita";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Vita/Vita-Prefix.pch";
-				INFOPLIST_FILE = "VitaTests/VitaTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F728BF2F190C74BB00E9DF4D /* Build configuration list for PBXProject "Vita" */ = {
+		E2DF627F16943FAB0059BBDA /* Build configuration list for PBXProject "Vita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F728BF64190C74BB00E9DF4D /* Debug */,
-				F728BF65190C74BB00E9DF4D /* Release */,
+				E2DF62A716943FAB0059BBDA /* Debug */,
+				E2DF62A816943FAB0059BBDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F728BF66190C74BB00E9DF4D /* Build configuration list for PBXNativeTarget "Vita" */ = {
+		E2DF62A916943FAB0059BBDA /* Build configuration list for PBXNativeTarget "Vita" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F728BF67190C74BB00E9DF4D /* Debug */,
-				F728BF68190C74BB00E9DF4D /* Release */,
+				E2DF62AA16943FAB0059BBDA /* Debug */,
+				E2DF62AB16943FAB0059BBDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		F728BF69190C74BB00E9DF4D /* Build configuration list for PBXNativeTarget "VitaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F728BF6A190C74BB00E9DF4D /* Debug */,
-				F728BF6B190C74BB00E9DF4D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F728BF2C190C74BB00E9DF4D /* Project object */;
+	rootObject = E2DF627C16943FAB0059BBDA /* Project object */;
 }

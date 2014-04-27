@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="sau-Fx-D3w">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--Primeiros SocorrosVC - Primeiros Socorros-->
+        <scene sceneID="pEh-Hd-erh">
+            <objects>
+                <tableViewController id="tvO-rj-bHY" customClass="PrimeirosSocorrosVC" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="22" sectionFooterHeight="22" id="t3v-G8-Fdg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleToFill" id="iJ3-2f-tn8">
+                            <rect key="frame" x="0.0" y="186" width="320" height="381"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.84313725490000002" green="0.035294117649999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailDisclosureButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EmergenciasCell" rowHeight="100" id="ueQ-Lf-HHf" customClass="EmergenciasCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ueQ-Lf-HHf" id="IS4-xh-axY">
+                                    <rect key="frame" x="0.0" y="0.0" width="253" height="99"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54E-k5-SSQ">
+                                            <rect key="frame" x="88" y="10" width="220" height="40"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="highlightedColor" red="0.66486085766423353" green="0.035294117649999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuN-Ne-hQd">
+                                            <rect key="frame" x="88" y="50" width="220" height="40"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="acidentes.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZBY-vK-eKP">
+                                            <rect key="frame" x="20" y="10" width="60" height="80"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" red="0.84313725490000002" green="0.035294117649999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="posterImageView" destination="ZBY-vK-eKP" id="YvW-1u-JUw"/>
+                                    <outlet property="titleLabel" destination="54E-k5-SSQ" id="vrk-Qo-SbN"/>
+                                    <outlet property="yearLabel" destination="tuN-Ne-hQd" id="dcL-PP-jvi"/>
+                                    <segue destination="8w8-3b-PzW" kind="push" trigger="accessoryAction" id="ReI-Ll-UUM"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tvO-rj-bHY" id="FVI-6x-ZH4"/>
+                            <outlet property="delegate" destination="tvO-rj-bHY" id="jQT-Xa-iyy"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Primeiros Socorros" id="frJ-pV-4Qv"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T25-kn-6ib" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1377" y="175"/>
+        </scene>
+        <!--CardiacoVC-->
+        <scene sceneID="vXf-0y-Bbd">
+            <objects>
+                <viewController id="8w8-3b-PzW" customClass="CardiacoVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t9d-lz-tvN"/>
+                        <viewControllerLayoutGuide type="bottom" id="Unr-sg-6rr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9og-yy-soK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Iwc-Qb-tOM">
+                                <rect key="frame" x="0.0" y="112" width="320" height="330"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84313725490000002" green="0.035294117649999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qfc-Nr-EFc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rh7-yY-e1Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1811" y="178"/>
+        </scene>
+        <!--PrincipalVC - Item 1-->
+        <scene sceneID="it4-GI-hhD">
+            <objects>
+                <viewController id="BAo-fz-aYR" customClass="PrincipalVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PUq-Wo-Qz3"/>
+                        <viewControllerLayoutGuide type="bottom" id="QNL-5k-G2L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iIO-Se-tQY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cab-Gf-m1h">
+                                <rect key="frame" x="20" y="114" width="100" height="114"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ambulancia.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botao1:" destination="BAo-fz-aYR" eventType="touchUpInside" id="TSa-WO-HCU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbz-Vh-cZ5">
+                                <rect key="frame" x="200" y="114" width="100" height="117"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ambulancia.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botao2:" destination="BAo-fz-aYR" eventType="touchUpInside" id="Xfm-BM-Cm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lh2-HU-v37">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="botao3:" destination="BAo-fz-aYR" eventType="touchUpInside" id="MZC-EE-nDb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84313725490000002" green="0.035294117649999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="uFz-46-EoL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QFX-O3-eyc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="-1247"/>
+        </scene>
+        <!--TelaVC-->
+        <scene sceneID="Edf-45-Wb8">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="sau-Fx-D3w" customClass="TelaVC" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="H0Q-HZ-JMq">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.84313725490000002" green="0.035294117649999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BAo-fz-aYR" kind="relationship" relationship="viewControllers" id="whl-F0-KwD"/>
+                        <segue destination="U9V-eY-mAn" kind="relationship" relationship="viewControllers" id="DaV-hJ-45v"/>
+                        <segue destination="Aau-U8-nDA" kind="relationship" relationship="viewControllers" id="Cvp-zN-VEo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HwW-WD-LKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="254" y="-920"/>
+        </scene>
+        <!--MapaVC - Item 2-->
+        <scene sceneID="vLg-6a-iBh">
+            <objects>
+                <viewController id="U9V-eY-mAn" customClass="MapaVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VoN-FY-cfH"/>
+                        <viewControllerLayoutGuide type="bottom" id="VJA-O6-pzU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zhb-HV-n1L">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ucx-9V-4r1">
+                                <rect key="frame" x="0.0" y="212" width="320" height="256"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.84313725490000002" green="0.035294117649999998" blue="0.16078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="6dr-lt-PgV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zjt-xL-jZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="-560"/>
+        </scene>
+        <!--Navigation Controller - Item-->
+        <scene sceneID="Wxw-eP-NmT">
+            <objects>
+                <navigationController id="Aau-U8-nDA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="jus-Ur-7S5"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rq9-nG-WpQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tvO-rj-bHY" kind="relationship" relationship="rootViewController" id="wKe-o2-Him"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oXy-A6-ksh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="786" y="163"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="acidentes.png" width="35" height="34"/>
+        <image name="ambulancia.png" width="275" height="275"/>
+        <image name="image1.png" width="640" height="1136"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
